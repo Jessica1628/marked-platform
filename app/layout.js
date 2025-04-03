@@ -10,7 +10,6 @@ export default function RootLayout({ children }) {
             <Link href="/">Accueil</Link>
             <Link href="/bibliotheque">Biblioth&egrave;que</Link>
             <Link href="/lecture">Lecture</Link>
-            <Link href="/fragments">Fragments</Link>
             <Link href="/auteur">Espace auteur</Link>
           </div>
           <div>
