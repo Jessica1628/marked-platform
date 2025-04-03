@@ -1,20 +1,40 @@
 'use client';
 
 export default function Chapitre1() {
+  // Fonction pour jouer la musique
+  const handlePlay = () => {
+    const audio = document.getElementById('bg-music');
+    if (audio) {
+      audio.play(); // Joue la musique
+    }
+  };
+
+  // Fonction pour mettre la musique en pause
+  const handlePause = () => {
+    const audio = document.getElementById('bg-music');
+    if (audio) {
+      audio.pause(); // Met la musique en pause
+    }
+  };
+
   return (
     <>
-      {/* Bouton pour activer la musique */}
+      {/* Boutons pour contrôler la musique */}
       <div className="fixed bottom-6 right-6 z-50">
+        {/* Bouton pour activer la musique */}
         <button
-          onClick={() => {
-            const audio = document.getElementById('bg-music');
-            if (audio) {
-              audio.play();
-            }
-          }}
-          className="px-4 py-2 text-sm bg-[#2e2e2e] text-white rounded-full shadow hover:bg-[#444]"
+          onClick={handlePlay}
+          className="px-4 py-2 text-sm bg-[#2e2e2e] text-white rounded-full shadow hover:bg-[#444] mb-2"
         >
           🔊 Activer le son
+        </button>
+
+        {/* Bouton pour mettre la musique en pause */}
+        <button
+          onClick={handlePause}
+          className="px-4 py-2 text-sm bg-[#2e2e2e] text-white rounded-full shadow hover:bg-[#444]"
+        >
+          ⏸️ Pause
         </button>
       </div>
 
@@ -30,18 +50,17 @@ export default function Chapitre1() {
         style={{ backgroundImage: "url('/fond_ch1.png')" }}
       >
         <div className="max-w-3xl w-full animate-fade-in backdrop-blur-sm bg-white/70 rounded-xl p-6 shadow-xl">
-
           {/* Mention légale */}
           <p className="text-xs text-center italic text-[#666] mb-10 leading-relaxed">
-            Cette œuvre est prot&eacute;g&eacute;e par le droit d&rsquo;auteur. Aucune partie de ce livre ne peut &ecirc;tre reproduite, copi&eacute;e, stock&eacute;e,
-            transmise ou diffus&eacute;e sous quelque forme que ce soit sans l&rsquo;autorisation &eacute;crite pr&eacute;alable de l&rsquo;auteur.<br />
-            Toute ressemblance avec des personnes r&eacute;elles, vivantes ou d&eacute;c&eacute;d&eacute;es, est purement fortuite.<br />
-            Tous droits r&eacute;serv&eacute;s.
+            Cette œuvre est protégée par le droit d’auteur. Aucune partie de ce livre ne peut être reproduite, copiée, stockée,
+            transmise ou diffusée sous quelque forme que ce soit sans l’autorisation écrite préalable de l’auteur.<br />
+            Toute ressemblance avec des personnes réelles, vivantes ou décédées, est purement fortuite.<br />
+            Tous droits réservés.
           </p>
 
           {/* Titre */}
           <h1 className="text-3xl sm:text-4xl font-serif font-bold text-center mb-1">Chapitre 1</h1>
-          <h2 className="text-xl sm:text-2xl text-center italic text-[#555] mb-10">La rage au poing &mdash; Aaron</h2>
+          <h2 className="text-xl sm:text-2xl text-center italic text-[#555] mb-10">La rage au poing — Aaron</h2>
 
           {/* Texte du chapitre */}
           <div className="text-justify leading-loose text-[17px] space-y-6">
