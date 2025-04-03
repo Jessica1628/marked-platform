@@ -20,13 +20,13 @@ export default function AuteurMenu() {
           Accueil
         </Link>
         <Link href="/auteur/personnages" className={linkClasses('/auteur/personnages')}>
-          👤 Personnages
+          &#128100; Personnages
         </Link>
         <Link href="/auteur/idees" className={linkClasses('/auteur/idees')}>
-          💡 Idées
+          &#128161; Idées
         </Link>
         <Link href="/auteur/chapitres" className={linkClasses('/auteur/chapitres')}>
-          📚 Chapitres
+          &#128218; Chapitres
         </Link>
       </div>
     </nav>

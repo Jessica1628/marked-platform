@@ -29,7 +29,7 @@ export default function PersonnagesPage() {
 
       <div className="grid gap-4 mb-10">
         {personnages.length === 0 ? (
-          <p className="text-center text-[#777] italic">Aucun personnage enregistré pour le moment.</p>
+          <p className="text-center text-[#777] italic">Aucun personnage enregistr&eacute; pour le moment.</p>
         ) : (
           personnages.map((perso, index) => (
             <div key={index} className="bg-[#f9f9f9] border border-[#ddd] rounded-xl p-4 shadow-sm">

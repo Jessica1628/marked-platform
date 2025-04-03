@@ -36,7 +36,7 @@ export default function NouveauChapitre() {
             value={form.titre}
             onChange={handleChange}
             className="w-full border rounded px-4 py-2"
-            placeholder="Ex: Chapitre 1 — La chute"
+            placeholder="Ex: Chapitre 1 &mdash; La chute"
           />
         </div>
 
@@ -48,7 +48,7 @@ export default function NouveauChapitre() {
             onChange={handleChange}
             rows="15"
             className="w-full border rounded px-4 py-2"
-            placeholder="Écris ton chapitre ici..."
+            placeholder="&Eacute;cris ton chapitre ici..."
           />
         </div>
 

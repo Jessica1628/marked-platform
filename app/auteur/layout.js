@@ -1,4 +1,3 @@
-// app/auteur/layout.js
 'use client';
 
 import '@/app/globals.css';
@@ -14,4 +13,3 @@ export default function AuteurLayout({ children }) {
     </>
   );
 }
-

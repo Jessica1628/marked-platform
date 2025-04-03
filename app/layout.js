@@ -8,7 +8,7 @@ export default function RootLayout({ children }) {
         <header className="p-4 border-b border-gray-700 flex flex-wrap justify-between items-center">
           <div className="flex gap-4">
             <Link href="/">Accueil</Link>
-            <Link href="/bibliotheque">Bibliothèque</Link>
+            <Link href="/bibliotheque">Biblioth&egrave;que</Link>
             <Link href="/lecture">Lecture</Link>
             <Link href="/fragments">Fragments</Link>
             <Link href="/auteur">Espace auteur</Link>

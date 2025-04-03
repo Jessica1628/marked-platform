@@ -15,7 +15,7 @@ export default function Intro() {
         <p className="text-[#3a3a3a] text-md font-light italic leading-relaxed mb-6">
           Ici, chaque page est une cicatrice,<br />
           chaque chapitre un souvenir.<br />
-          Bienvenue dans un monde où l’amour, la douleur et la mémoire se rencontrent.
+          Bienvenue dans un monde o&ugrave; l&rsquo;amour, la douleur et la m&eacute;moire se rencontrent.
         </p>
         <Link href="/bibliotheque">
           <button className="mt-2 px-6 py-2 bg-[#2e2e2e] text-white font-medium rounded-full transition duration-300 hover:bg-[#4a4a4a] shadow-md hover:scale-105">

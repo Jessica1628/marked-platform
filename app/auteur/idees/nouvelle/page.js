@@ -25,30 +25,30 @@ export default function NouvelleIdee() {
 
   return (
     <div className="max-w-3xl mx-auto bg-[#f9f9f9] p-8 rounded-2xl shadow-md">
-      <h1 className="text-3xl font-bold mb-6 text-center">Nouvelle idée</h1>
+      <h1 className="text-3xl font-bold mb-6 text-center">Nouvelle id&eacute;e</h1>
 
       <form className="space-y-6">
         <div>
-          <label className="block font-semibold mb-1">Titre de l’idée</label>
+          <label className="block font-semibold mb-1">Titre de l&rsquo;id&eacute;e</label>
           <input
             type="text"
             name="titre"
             value={form.titre}
             onChange={handleChange}
             className="w-full border rounded px-4 py-2"
-            placeholder="Idée de scène, dialogue, rebondissement..."
+            placeholder="Id&eacute;e de sc&egrave;ne, dialogue, rebondissement..."
           />
         </div>
 
         <div>
-          <label className="block font-semibold mb-1">Contenu de l’idée</label>
+          <label className="block font-semibold mb-1">Contenu de l&rsquo;id&eacute;e</label>
           <textarea
             name="contenu"
             value={form.contenu}
             onChange={handleChange}
             rows="6"
             className="w-full border rounded px-4 py-2"
-            placeholder="Écris ton idée ici, sans pression !"
+            placeholder="&Eacute;cris ton id&eacute;e ici, sans pression !"
           />
         </div>
 
@@ -58,7 +58,7 @@ export default function NouvelleIdee() {
             onClick={handleSave}
             className="bg-black text-white px-6 py-2 rounded hover:bg-gray-800 transition"
           >
-            💾 Enregistrer l’idée
+            💾 Enregistrer l&rsquo;id&eacute;e
           </button>
         </div>
       </form>
