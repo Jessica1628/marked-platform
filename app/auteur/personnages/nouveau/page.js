@@ -59,7 +59,7 @@ export default function NouvelleFichePersonnage() {
         </div>
 
         <div>
-          <label className="block font-semibold mb-1">Traits de caract&egrave;re</label>
+          <label className="block font-semibold mb-1">Traits de caractère</label>
           <textarea name="traits" value={form.traits} onChange={handleChange} rows="2" className="w-full border rounded px-4 py-2" />
         </div>
 
@@ -69,7 +69,7 @@ export default function NouvelleFichePersonnage() {
         </div>
 
         <div>
-          <label className="block font-semibold mb-1">Liens avec d&apos;autres personnages</label>
+          <label className="block font-semibold mb-1">Liens avec d'autres personnages</label>
           <textarea name="liens" value={form.liens} onChange={handleChange} rows="2" className="w-full border rounded px-4 py-2" />
         </div>
 
